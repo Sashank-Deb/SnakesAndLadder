@@ -4,13 +4,34 @@
 <head>
 	<title>Parcel Sandbox</title>
 	<meta charset="UTF-8" />
+	<style>
+        body{
+            height:80vh;
+        }
+        h1{
+			text-align: center;
+		}
+		#app{
+			display: flex;
+			gap: 20px;
+			width: 100%;
+			justify-content: center;
+			align-items: center;
+			height: 50vh;
+		}
+		button{
+			padding: 50px;
+			border-radius: 2px;
+		}
+	</style>
 </head>
 
 <body>
-	<div id="app"></div>
-	<button id="RollDice" >Roll A Dice</button>
+	<h1>Snake and Ladder</h1>
+	<div id="app">
+		<button id="buttonOne" onClick="snakeAndLadderGame()">Roll A Dice</button>
+	</div>
 	<script src="src/index.js">
 	</script>
 </body>
-
 </html>
