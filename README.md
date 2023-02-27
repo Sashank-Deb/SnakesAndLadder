@@ -1,10 +1,10 @@
 # SnakesAndLadder
 This repository contains code examples and resources for working with vanilla JavaScript. Vanilla JavaScript refers to the use of pure JavaScript without any additional frameworks or libraries.
 
-##Getting Started
+## Getting Started
 To get started with vanilla JavaScript, you need to have a basic understanding of HTML, CSS, and JavaScript. If you are new to programming, it's recommended that you start with HTML and CSS before moving on to JavaScript.
 
-##Installation
+## Installation
 To use JavaScript in your project, you don't need to install anything as it is already built into the web browser. However, you can install a text editor or integrated development environment (IDE) to make writing and testing your code easier.
 
 Some popular text editors and IDEs for JavaScript development include:
@@ -13,7 +13,7 @@ Visual Studio Code
 Sublime Text
 Atom
 
-##Problem Statement
+## Problem Statement
 A simple console application, which simulates the playing of a Snakes & Ladders game.
 Board: There are 100 cells on a Snakes & Ladders board from 01, 02... all the way to 100. However, your starting
 position is 00, which is outside the board.
@@ -34,14 +34,14 @@ Snake head Snake tail
 65 35
 87 32
 
-##Inputs and Outputs for your program:
+## Inputs and Outputs for your program:
 The input to your program will be any number between 1 to 6 (...the numbers on a dice...), and your current position
 on the board
 The output of your program will be your new position on the board.
 End of game: The game ends as soon as you reach exactly 100. However, if the output comes out to be more than
 100, then the piece will remain in the current position.
 
-##Test cases:
+## Test cases:
 
 1. Increment based on Roll(Anything between 1-6)
 2. Reset values after winning the game.
@@ -52,5 +52,5 @@ End of game: The game ends as soon as you reach exactly 100. However, if the out
    -  If the output comes out to be more than 100, then the piece will remain in the current position
 5. Handled Multiplayer where the game engine is called with currentPosition passed as attribute for different players
    - Each Player gets one chance to roll a dice unless he rolls a six
-##Edge Case:
+## Edge Case:
 1. If a dice is roll 6 three consecutive times it should reset to the position before first roll.
